@@ -1,0 +1,145 @@
+.home {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 80px;
+  background: #020617;
+  color: white;
+  box-sizing: border-box;
+}
+
+/* LEFT CONTENT */
+.home-left {
+  width: 50%;
+}
+
+.home-left h1 {
+  font-size: 48px;
+}
+
+.home-left h3 {
+  color: #38bdf8;
+  margin: 10px 0;
+}
+
+.home-left p {
+  max-width: 500px;
+  line-height: 1.6;
+}
+
+.home-left button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  background: #38bdf8;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* RIGHT IMAGE */
+.home-right {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+}
+
+.home-right img {
+  width: 100%;
+  max-width: 360px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* ========================= */
+/* 📱 MOBILE (<=768px) */
+/* ========================= */
+@media (max-width: 768px) {
+  .home {
+    flex-direction: column-reverse; /* image top, text bottom */
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .home-left,
+  .home-right {
+    width: 100%;
+  }
+
+  .home-left h1 {
+    font-size: 32px;
+  }
+
+  .home-left p {
+    margin: auto;
+  }
+
+  .home-right {
+    margin-bottom: 30px;
+  }
+}
+
+/* ========================= */
+/* 📱 SMALL MOBILE (<=480px) */
+/* ========================= */
+@media (max-width: 480px) {
+  .home-left h1 {
+    font-size: 26px;
+  }
+
+  .home-left h3 {
+    font-size: 16px;
+  }
+
+  .home-right img {
+    max-width: 280px;
+  }
+}
+.home {
+  font-family: 'Poppins', sans-serif;
+}
+
+.home h1 {
+  font-weight: 700;
+}
+
+.home h3 {
+  font-weight: 500;
+}
+.home {
+  padding-top: 70px;
+}
+.cv-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+
+  margin-top: 25px;
+  padding: 14px 28px;
+
+  background: linear-gradient(135deg, #38bdf8, #2563eb);
+  color: #ffffff;
+
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+
+  border-radius: 8px;
+  border: none;
+
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 20px rgba(56, 189, 248, 0.35);
+}
+
+/* Hover */
+.cv-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(56, 189, 248, 0.55);
+  background: linear-gradient(135deg, #2563eb, #1e40af);
+}
+
+/* Active click */
+.cv-btn:active {
+  transform: scale(0.96);
+}

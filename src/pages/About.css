@@ -1,0 +1,161 @@
+.about {
+  min-height: 100vh;
+  padding: 80px;
+  background: #020617;
+  color: white;
+}
+
+.about h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about p {
+  max-width: 700px;
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .about {
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .about h2 {
+    font-size: 28px;
+  }
+}
+.about {
+  font-family: 'Inter', sans-serif;
+}
+
+.about h2 {
+  font-weight: 600;
+}
+
+.about p {
+  font-weight: 400;
+}
+.about {
+  min-height: 100vh;
+  padding: 80px;
+  background: #f8f8f8;
+  color: #111;
+  font-family: 'Inter', sans-serif;
+}
+
+/* HEADER */
+.about-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-header h2 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.about-header span {
+  color: #3c00ff;
+  font-weight: 500;
+}
+
+.about-line {
+  margin: 30px 0 60px;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+/* CONTENT LAYOUT */
+.about-content {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+
+/* LEFT DESIGN */
+.about-left {
+  position: relative;
+  width: 40%;
+  height: 400px;
+}
+
+.circle {
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circle.orange {
+  width: 260px;
+  height: 260px;
+  background: linear-gradient(180deg, #131fd3, #ffffff);
+  top: 0;
+  left: 80px;
+}
+
+.circle.black {
+  width: 300px;
+  height: 300px;
+  background: rgb(0, 49, 61);
+  bottom: 0;
+  left: 0;
+}
+
+/* RIGHT CONTENT */
+.about-right {
+  width: 60%;
+}
+
+.about-text {
+  max-width: 600px;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 50px;
+}
+
+/* STATS */
+.about-stats {
+  display: flex;
+  gap: 60px;
+}
+
+.about-stats h3 {
+  font-size: 48px;
+  margin-bottom: 5px;
+}
+
+.about-stats span {
+  font-size: 14px;
+  color: #666;
+}
+
+/* ========================= */
+/* 📱 RESPONSIVE */
+/* ========================= */
+@media (max-width: 900px) {
+  .about {
+    padding: 50px 20px;
+  }
+
+  .about-content {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .about-left,
+  .about-right {
+    width: 100%;
+  }
+
+  .about-left {
+    height: 300px;
+  }
+
+  .about-stats {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
