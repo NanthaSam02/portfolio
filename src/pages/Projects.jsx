@@ -55,7 +55,9 @@ function Projects() {
               <span>MySQL</span>
             </div>
             <div className="project-links">
-              <a href="#" target="_blank" rel="noreferrer">GitHub</a>
+              <button type="button" className="project-link-button" disabled>
+                GitHub
+              </button>
             </div>
           </div>
         </div>
@@ -75,8 +77,12 @@ function Projects() {
               <span>JavaScript</span>
             </div>
             <div className="project-links">
-              <a href="#" target="_blank" rel="noreferrer">Live</a>
-              <a href="#" target="_blank" rel="noreferrer">GitHub</a>
+              <button type="button" className="project-link-button" disabled>
+                Live
+              </button>
+              <button type="button" className="project-link-button" disabled>
+                GitHub
+              </button>
             </div>
           </div>
         </div>
@@ -95,7 +101,9 @@ function Projects() {
               <span>CSS</span>
             </div>
             <div className="project-links">
-              <a href="#" target="_blank" rel="noreferrer">Live</a>
+              <button type="button" className="project-link-button" disabled>
+                Live
+              </button>
             </div>
           </div>
         </div>
@@ -158,3 +166,4 @@ function Projects() {
 }
 
 export default Projects;
+
