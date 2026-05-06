@@ -108,15 +108,32 @@
   }
 
   .exp-item {
-    grid-template-columns: 1fr;
+    grid-template-columns: 24px 1fr;
     gap: 20px;
   }
 
+  .exp-left {
+    grid-column: 2;
+  }
+
   .exp-middle {
-    display: none;
+    display: flex;
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    align-self: stretch;
+    justify-content: center;
+  }
+
+  .exp-right {
+    grid-column: 2;
   }
 
   .exp-left h3 {
     font-size: 32px;
+  }
+
+  .line {
+    height: calc(100% + 20px);
+    min-height: 80px;
   }
 }

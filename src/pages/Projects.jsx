@@ -55,9 +55,13 @@ function Projects() {
               <span>MySQL</span>
             </div>
             <div className="project-links">
-              <button type="button" className="project-link-button" disabled>
-                GitHub
-              </button>
+                <a
+    href="https://www.behance.net/gallery/214009023/PettyCash"
+    target="_blank"
+    rel="noreferrer"
+  >
+    Live Website
+  </a>
             </div>
           </div>
         </div>
@@ -77,12 +81,21 @@ function Projects() {
               <span>JavaScript</span>
             </div>
             <div className="project-links">
-              <button type="button" className="project-link-button" disabled>
-                Live
-              </button>
-              <button type="button" className="project-link-button" disabled>
-                GitHub
-              </button>
+              <a
+    href="https://nanthakumaranportfolio.netlify.app/"
+    target="_blank"
+    rel="noreferrer"
+  >
+    Live Website
+  </a>
+             
+               <a
+    href="https://github.com/NanthaSam02/portfolio.git"
+    target="_blank"
+    rel="noreferrer"
+  >
+     GitHub
+  </a>
             </div>
           </div>
         </div>
