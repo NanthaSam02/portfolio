@@ -100,26 +100,34 @@ function Projects() {
           </div>
         </div>
 
-        {/* Project 4 – Office Website */}
-        <div className="project-card">
-          
-          <div className="project-content">
-            <h3>Ofs Website</h3>
-            <p>
-              Designed and developed a professional business website focused on
-              branding, responsiveness, and basic SEO optimization.
-            </p>
-            <div className="tech-stack">
-              <span>ReactJS</span>
-              <span>CSS</span>
-            </div>
-            <div className="project-links">
-              <button type="button" className="project-link-button" disabled>
-                Live
-              </button>
-            </div>
-          </div>
-        </div>
+        {/* Project 4 – Behance */}
+<div className="project-card">
+  
+  <div className="project-content">
+    <h3>Behance Portfolio</h3>
+    <p>
+      Explore my creative portfolio featuring UI/UX designs, web design
+      projects, responsive interfaces, branding concepts, and modern digital
+      experiences published on Behance.
+    </p>
+    <div className="tech-stack">
+      <span>Figma</span>
+      <span>UI/UX</span>
+      <span>Web Design</span>
+      <span>Creative Portfolio</span>
+    </div>
+    <div className="project-links">
+      <a
+        href="YOUR_BEHANCE_LINK"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="project-link-button"
+      >
+        Live
+      </a>
+    </div>
+  </div>
+</div>
 
         {/* Project 5 – UI/UX Design */}
         <div className="project-card">

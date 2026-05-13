@@ -139,6 +139,19 @@
   .projects-header h2 {
     font-size: 28px;
   }
+
+  .project-content h3 {
+    font-size: 17px;
+  }
+
+  .project-content p {
+    display: none;
+  }
+
+  .projects-grid .project-card:nth-child(3) .project-links a {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
 }
 
 
