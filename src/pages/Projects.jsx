@@ -102,7 +102,6 @@ function Projects() {
 
         {/* Project 4 – Behance */}
 <div className="project-card">
-  
   <div className="project-content">
     <h3>Behance Portfolio</h3>
     <p>
@@ -110,15 +109,17 @@ function Projects() {
       projects, responsive interfaces, branding concepts, and modern digital
       experiences published on Behance.
     </p>
+
     <div className="tech-stack">
       <span>Figma</span>
       <span>UI/UX</span>
       <span>Web Design</span>
       <span>Creative Portfolio</span>
     </div>
+
     <div className="project-links">
       <a
-        href="YOUR_BEHANCE_LINK"
+        href="https://www.behance.net/nanthakumaran"
         target="_blank"
         rel="noopener noreferrer"
         className="project-link-button"
