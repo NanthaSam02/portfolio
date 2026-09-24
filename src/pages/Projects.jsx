@@ -82,7 +82,7 @@ function Projects() {
             </div>
             <div className="project-links">
               <a
-    href="https://nanthakumaranportfolio.netlify.app/"
+    href="https://nanthakumaranportfolio.vercel.app/"
     target="_blank"
     rel="noreferrer"
   >
@@ -100,7 +100,62 @@ function Projects() {
           </div>
         </div>
 
-        {/* Project 4 – Behance */}
+       
+{/* Project 4 – Homewala (First Version) */}
+<div className="project-card">
+  <div className="project-content">
+    <h3>Homewala – First Version (Demo)</h3>
+    <p>
+      The initial prototype and first version built for the Homewala real
+      estate platform, focusing on responsive layout, property listings,
+      and essential UI components.
+    </p>
+    <div className="tech-stack">
+      <span>ReactJS</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>Responsive UI</span>
+    </div>
+    <div className="project-links">
+      <a
+        href="https://homewalafirstversion-demo.surge.sh/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Live Website
+      </a>
+    </div>
+  </div>
+</div>
+
+       {/* Project 5 – Innovis */}
+<div className="project-card">
+  <div className="project-content">
+    <h3>Innovis – Corporate IT Services</h3>
+    <p>
+      A responsive corporate IT service profile website built to showcase
+      technology solutions, business offerings, and company portfolio
+      with smooth navigation.
+    </p>
+    <div className="tech-stack">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>Responsive Design</span>
+    </div>
+    <div className="project-links">
+      <a
+        href="https://innovis24.com/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Live Website
+      </a>
+    </div>
+  </div>
+</div>
+
+      {/* Project 6 – Behance Portfolio */}
 <div className="project-card">
   <div className="project-content">
     <h3>Behance Portfolio</h3>
@@ -109,78 +164,23 @@ function Projects() {
       projects, responsive interfaces, branding concepts, and modern digital
       experiences published on Behance.
     </p>
-
     <div className="tech-stack">
       <span>Figma</span>
       <span>UI/UX</span>
       <span>Web Design</span>
-      <span>Creative Portfolio</span>
+      <span>Branding</span>
     </div>
-
     <div className="project-links">
       <a
         href="https://www.behance.net/nanthakumaran"
         target="_blank"
-        rel="noopener noreferrer"
-        className="project-link-button"
+        rel="noreferrer"
       >
-        Live
+        View on Behance
       </a>
     </div>
   </div>
 </div>
-
-        {/* Project 5 – UI/UX Design */}
-        <div className="project-card">
-          
-          <div className="project-content">
-            <h3>Teashop Design</h3>
-            <p>
-              A UI/UX design project focused on user flow, wireframing,
-              and clean visual design.
-            </p>
-            <div className="tech-stack">
-              <span>Photoshop</span>
-              <span>Illustrator</span>
-              <span>Canva</span>
-            </div>
-            <div className="project-links">
-  <a
-    href="https://www.behance.net/gallery/220789967/Teashop-Design"
-    target="_blank"
-    rel="noreferrer"
-  >
-    View on Behance
-  </a>
-</div>
-          </div>
-        </div>
-
-        {/* Project 6 – Graphic / Web Design */}
-        <div className="project-card">
-         
-          <div className="project-content">
-            <h3>Nika Fashion Jewellery</h3>
-            <p>
-              A collection of web and graphic design works created using modern
-              design tools with a focus on layout and usability.
-            </p>
-            <div className="tech-stack">
-              <span>Photoshop</span>
-              <span>Illustrator</span>
-              <span>Canva</span>
-            </div>
-            <div className="project-links">
-  <a
-    href="https://www.behance.net/gallery/222384807/Nika-Fashion-Jewellery"
-    target="_blank"
-    rel="noreferrer"
-  >
-    View on Behance
-  </a>
-</div>
-          </div>
-        </div>
 
       </div>
     </section>

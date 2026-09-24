@@ -24,12 +24,24 @@ function ScrollToTop() {
     });
   };
 
+  const scrollToProjects = () => {
+    const projectSection = document.getElementById("projects");
+    if (projectSection) {
+      projectSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <>
       {show && (
-        <button className="scroll-top" onClick={scrollTop}>
-          ↑
-        </button>
+        <div className="floating-container">
+          <button className="floating-projects-btn" onClick={scrollToProjects}>
+            Projects
+          </button>
+          <button className="floating-top-btn" onClick={scrollTop} title="Scroll to top">
+            ↑
+          </button>
+        </div>
       )}
     </>
   );
