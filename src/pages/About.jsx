@@ -21,7 +21,7 @@ function About() {
         {/* RIGHT CONTENT */}
         <div className="about-right">
           <p className="about-text">
-            I’m Nanthakumaran, a Reactjs Developer with over 1.9+ year of hands-on
+            I’m Nanthakumaran, a Web Developer with over 1.9+ year of hands-on
             experience in Designing and Developing real-world web applications.
             I work primarily with React.js for frontend development and have also
             worked with PHP Laravel on the backend, giving me a strong

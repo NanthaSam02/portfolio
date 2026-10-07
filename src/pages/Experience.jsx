@@ -18,7 +18,7 @@ function Experience() {
         <div className="exp-item">
           <div className="exp-left">
             <h3>2025 – Present</h3>
-            <p>ReactJs Developer</p>
+            <p>CMS Executive and Junior Frontend Developer</p>
           </div>
 
           <div className="exp-middle">
@@ -28,15 +28,10 @@ function Experience() {
 
           <div className="exp-right">
             <h4>Homewala.com</h4>
-            <small>Full-time</small>
+            <small>Full-time(July 2025 – Sept 2026)</small>
             <p>
-  Working on a real estate platform using HTML, CSS,
-  JavaScript, and React.js.
-  Developed and maintained features using PHP Laravel,
-  MySQL, and XAMPP, handled database operations using
-  MySQL Workbench, improved UI usability, enhanced
-  SEO performance, and increased lead generation
-  through user-friendly design improvements.
+ Working on a real estate platform using HTML, CSS, JavaScript, and React.js. Developed and maintained features using PHP Laravel, MySQL, and XAMPP, handled database operations using MySQL Workbench, and managed CMS content, property listings, CRM operations, lead management and distribution. Worked on SEO management, reporting and data analysis, and workflow automation using Google Apps Script and Make.com. Also supported administrative operations, team coordination, problem solving, and used AI productivity tools such as ChatGPT, Gemini, Claude AI, Codex, and Antigravity AI to improve development and workflow efficiency.
+
 </p>
           </div>
         </div>
@@ -55,7 +50,7 @@ function Experience() {
 
           <div className="exp-right">
             <h4>Innovias24</h4>
-            <small>Full-time</small>
+            <small>Full-time(Jan 2024 – Dec 2024)</small>
            <p>
   Designed and developed responsive websites using HTML,
   CSS, JavaScript, and React.js.

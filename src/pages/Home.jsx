@@ -7,9 +7,9 @@ function Home() {
     <section className="home" id="home">
       <div className="home-left">
         <h1>Hi, I'm Nanthakumaran 👋</h1>
-        <h3>React Developer</h3>
+        <h3>Software Developer</h3>
         <p>
-          I Design and Develop modern, responsive,User Friendly websites using React.js
+          I Design and Develop modern, responsive,User Friendly websites and Web Applications with high-quality code.
         </p>
        <a
   href="/resume.pdf"
